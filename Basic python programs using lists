@@ -1,0 +1,33 @@
+(1)
+# Write a Python program to find the frequency of occurrence of each elelment in a list
+random=["12","34","56","12","11"]
+count=0
+for x in random:
+  if(x=="12"):
+    count=count+1
+print(count)
+
+(2)
+# Write a Python program to check whether a given string is palindrome or not
+string = input()
+if (string == string[::-1]):
+  print("Palindrome")
+else:
+  print("Not a palindrome")
+
+(3)
+# Write a Python program to print the sub-list of a given list according to the user specified range
+n = int(input())
+l=[]
+print("List elements:")
+for k in range (n):
+  i=input()
+  l.append(i)
+l1=[]
+st = int(input())
+ed = int(input())
+i=st
+while i<ed:
+    l1.append(l[i])
+    i=i+1
+print(l1)
